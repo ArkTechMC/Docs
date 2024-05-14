@@ -1,0 +1,27 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.heroBanner {
+  padding-top: 4rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  width: 85%;
+  max-width: 800px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
