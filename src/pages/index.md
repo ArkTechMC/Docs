@@ -6,25 +6,12 @@ title: Welcome to Rainimator Mod Dev Team Documents!
 
 ![](/img/banner.webp)
 
+import { Entry } from '@site/src/components/Cards';
+
 <section class="projects">
     <div class="projectsContainer">
-        <div class="project">
-            <div class="flex">
-                <b><a href="/docs/annotation-lib" target="_blank" rel="noopener noreferrer">Annotation Lib</a></b>
-                <p>Simplify your registration with annotation powered system.</p>
-            </div>
-        </div>
-        <div class="project">
-            <div class="flex">
-                <b><a href="/docs/mcr-convert-lib" target="_blank" rel="noopener noreferrer">Mcr Convert Lib</a></b>
-                <p>Fully utilized tool kit for developing mods.</p>
-            </div>
-        </div>
-        <div class="project">
-            <div class="flex">
-                <b><a href="https://github.com/PaperMC/Velocity" target="_blank" rel="noopener noreferrer">Rainimator Mod</a></b>
-                <p>Secondary creation of Rainimator Minecraft Animation.</p>
-            </div>
-        </div>
+        <Entry link="/docs/library/annotation-lib" name="Annotation Lib" content="Simplify your registration with annotation powered system."/>
+        <Entry link="/docs/library/mcr-convert-lib" name="Mcr Convert Lib" content="Fully utilized tool kit for developing mods."/>
+        <Entry link="/docs/mod/rainimator-mod" name="Rainimator Mod" content="Secondary creation of Rainimator Minecraft Animation."/>
     </div>
 </section>

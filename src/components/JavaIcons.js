@@ -1,3 +1,6 @@
+export function Annotation() {
+    return (<img src="/img/icon/annotation-16.svg" style={{ height: "32px" }} title="Annotation" />);
+}
 export function Capacitor() {
     return (<img src="/img/icon/capacitor-16.svg" style={{ height: "32px" }} title="Capacitor Class" />);
 }
@@ -15,6 +18,9 @@ export function Struct() {
 }
 export function Type() {
     return (<img src="/img/icon/type-16.svg" style={{ height: "32px" }} title="Type" />);
+}
+export function Unused() {
+    return (<img src="/img/icon/unused-16.svg" style={{ height: "32px" }} title="Unused Yet" />);
 }
 export function Utility() {
     return (<img src="/img/icon/utility-16.svg" style={{ height: "32px" }} title="Utility Class" />);

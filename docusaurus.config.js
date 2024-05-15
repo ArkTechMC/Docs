@@ -43,8 +43,8 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -84,8 +84,8 @@ const config = {
             position: 'left',
             label: 'Libraries',
             items: [
-              { to: '/docs/annotation-lib', label: 'Annotation Lib' },
-              { to: '/docs/mcr-convert-lib', label: 'Mcr Convert Lib' },
+              { to: '/docs/library/annotation-lib', label: 'Annotation Lib' },
+              { to: '/docs/library/mcr-convert-lib', label: 'Mcr Convert Lib' },
             ]
           },
           {
@@ -93,7 +93,7 @@ const config = {
             position: 'left',
             label: 'Mods',
             items: [
-              { to: '/docs/rainimator-mod', label: 'Rainimator Mod' },
+              { to: '/docs/mod/rainimator-mod', label: 'Rainimator Mod' },
             ]
           },
           {
