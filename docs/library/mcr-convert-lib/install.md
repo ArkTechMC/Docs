@@ -14,16 +14,9 @@ Download this mod on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/m
 
 You can download the jar with links above, or use our maven repositories below:
 
-```groovy
-maven {
-   name = "IAFEnvoy's Maven"
-   url = "https://maven.iafenvoy.com/releases"
-}
+import { Maven } from '@site/src/components/Cards';
 
-dependencies {
-    modImplementation "com.iafenvoy:mcrconvertlib:${mcrconvertlib_version}"
-}
-```
+<Maven name="IAFEnvoy's Maven" link="https://maven.iafenvoy.com/releases" group="com.iafenvoy" artifact="mcrconvertlib"/>
 
 ### About versions
 
