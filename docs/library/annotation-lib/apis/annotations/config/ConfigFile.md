@@ -11,7 +11,7 @@ Tell the config system to load config. **ONLY LOAD NO SAVE**
 **Only provide basic usage. Use Cloth Config for advanced functions.**
 
 Gson will be used so you can use Gson features.
-Use `AnnotationApi.getConfig(this class);` to get your config.
+Use `AnnotationApi.getConfig` to get your config.
 
 ```java
 @Documented
