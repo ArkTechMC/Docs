@@ -19,3 +19,7 @@ Register your own custom into loading system.
 ## `getConfig`
 
 Get your registered config registered by [@ConfigFile](./../annotations/config/ConfigFile).
+
+## `registerHotkeyHandler`
+
+Register hotkey handler for hotkey registered by [@AutoNetwork](./../annotations/registration/AutoNetwork).

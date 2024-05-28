@@ -18,9 +18,17 @@ You can use it to do something such as register recipes.
 public @interface CallbackHandler {
     /**
      * Call this before or after actions.
+     *
      * @return {@link CallTime }
      */
     CallTime value() default CallTime.AFTER;
+
+    /**
+     * The running environment. CLIENT->Client only, SERVER->Both
+     *
+     * @return {@link EnvType }
+     */
+    EnvType environment() default EnvType.SERVER;
 
     enum CallTime {
         BEFORE, AFTER
