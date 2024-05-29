@@ -11,6 +11,8 @@ Register this field with given ID.
 Field name will be used if no ID provided.
 Processor will automatically detect which `Registry` should be used.
 
+Currently can be registered: `Item`, `Block`, `EntityType`, `SoundEvent`, `StatusEffect`, `ItemGroup`, `ParticleType`, `Enchantment`, `Potion`, `KeyBinding`, `BlockEntityType`
+
 ```java
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
