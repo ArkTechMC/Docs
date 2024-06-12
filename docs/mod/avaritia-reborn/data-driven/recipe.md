@@ -8,7 +8,7 @@ This page will teach you how to create a extreme shaped recipe.
 
 ## How to do
 
-Create file `data/YOUR_ID/avaritia/extreme_recipes/example.json` and write content below:
+Create file `data/YOUR_ID/recipes/example.json` and write content below:
 
 *Example: Compressor*
 
