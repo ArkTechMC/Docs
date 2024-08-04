@@ -6,6 +6,8 @@ title: Welcome to Rainimator Mod Dev Team Documents!
 
 ![](/img/banner.webp)
 
+**This website has been migerated to [IAFEnvoy's Docs](https://docs.iafenvoy.com/)
+
 import { Entry } from '@site/src/components/Cards';
 
 <section class="projects">
